@@ -13,13 +13,13 @@ body{
 /*common css end*/
 /*header start*/
 header{
-     border: 1px solid;
+    /* border: 1px solid;*/
      padding: 30px 0;
 }
 .container{
 	margin: 0 auto;
     width: 90%;
-    border: 1px solid;
+   /* border: 1px solid;*/
     overflow: hidden;
 }
 .logo{
@@ -73,7 +73,7 @@ header{
 
 /*getaway start*/
 .getaway{
-	padding: 100px 0;
+	padding: 100px 0 30px;
 }
 .container2{
 	width: 80%;
@@ -89,7 +89,7 @@ header{
 }
 .title{
 
-	margin: 20px 0 30px;
+	margin: 15px 0 25px;
 	font-size: 30px;
 	font-weight:400;
 }
@@ -117,10 +117,11 @@ header{
 	overflow: hidden;
 }
 .b_single{
+    margin-top: 70px;
 	width: 47%;
 	/*border: 1px solid;*/
 	float: left;
-	margin-bottom: 120px;
+	
 	
 }
 .b_single:nth-child(even){
@@ -145,7 +146,7 @@ header{
 	text-align: center;
 }
 .s_h2{
-	color: #333333;wnhiop898888888888888888
+	color: #333333;
 	margin-top: 0;
 	margin-bottom: 70px;
 
@@ -188,3 +189,84 @@ header{
 
 
 /*news end*/
+
+/*blog2 start*/
+
+.blog2{}
+.load{
+	margin: 150px 0 50px;
+	text-align: center;
+}
+.load button{
+	width: 165px;
+	height: 65px;
+	background-color: transparent;
+	border: 1 px solid #626262;
+	font-family:"Playfair Display", serif;
+	font-size:20px ;
+	font-weight:400;
+	color:#626262;
+
+}
+.load button:hover{
+	background-color: #626262;
+	color: #fff;
+}
+/*blog2 end*/
+
+
+/*footer start*/
+footer{
+	margin: 0 auto;
+	width: 100%;
+	background-color: #f0f0f0;
+	overflow: hidden;
+}
+.pages{
+	margin-top: 10px;
+   float: left;
+   margin-left: 0;
+}
+.pages ul{
+	float: right;
+}
+.pages ul li{
+	float:left;
+	list-style: none;
+
+}
+.pages ul li a{
+	float:right;
+	text-decoration: none;
+	display: inline-block;
+	margin:1px 10px 50px;
+	color: black ;
+}
+
+.social{
+ float: right;
+}
+.social img{
+	width: 100%;
+}
+.social ul{
+	float: right;
+}
+.social ul li{
+	float: left;
+	list-style: none;
+}
+.social ul li a{
+	float: left;
+	 color:#626262 ;
+	 display: inline-block;
+	margin:10px 10px 25px;
+}
+.social ul li :last-child a{
+	margin-right: 0;
+}
+.social ul li:nth-child(1){
+	margin-top: 10px;
+}
+
+/*footer end*/
